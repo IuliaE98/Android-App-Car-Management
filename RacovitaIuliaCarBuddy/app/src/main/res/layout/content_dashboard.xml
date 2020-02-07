@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DashboardActivity"
+    android:background="@drawable/carwallpaper"
+    tools:showIn="@layout/activity_dashboard">
+
+
+    <Button
+        android:id="@+id/buttonInvestmentd"
+        android:layout_width="95dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="150dp"
+
+        android:layout_marginRight="150dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></Button>
+
+    <ImageView
+        android:id="@+id/imageView4d"
+        android:layout_width="92dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/bluecar"
+        app:layout_constraintEnd_toEndOf="@+id/buttonInvestmentd"
+        app:layout_constraintTop_toTopOf="@+id/buttonInvestmentd" />
+
+    <TextView
+        android:id="@+id/txtViewInvestitiid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="71dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="serif"
+        android:text="@string/cheltuieli"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/buttonInvestmentd"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInvestmentd"
+        app:layout_constraintVertical_bias="0.0"></TextView>
+
+    <ImageView
+        android:id="@+id/imgCarInfo"
+        android:layout_width="91dp"
+        android:layout_height="77dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/infocar"
+        app:layout_constraintLeft_toLeftOf="@+id/btnMoreInfod"
+        app:layout_constraintTop_toTopOf="@id/btnMoreInfod" />
+
+    <Button
+        android:id="@+id/btnMoreInfod"
+        android:layout_width="96dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonFueld"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtviewMoreInfod"
+        android:layout_width="82dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="serif"
+        android:text="@string/mai_multe_informa_ii"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/btnMoreInfod"
+        app:layout_constraintTop_toBottomOf="@id/btnMoreInfod" />
+
+    <TextView
+        android:id="@+id/txtViewAlimentared"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:fontFamily="serif"
+        android:text="@string/aliment_ri"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/buttonFueld"
+        app:layout_constraintRight_toRightOf="@+id/buttonFueld"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFueld" />
+
+    <ImageView
+        android:id="@+id/imgViewFuel"
+        android:layout_width="95dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/bluefuel"
+        app:layout_constraintRight_toRightOf="@+id/buttonFueld"
+        app:layout_constraintTop_toTopOf="@+id/buttonFueld" />
+
+
+    <Button
+        android:id="@+id/buttonFueld"
+        android:layout_width="102dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@id/txtViewAlimentared"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnMoreInfod"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInvestmentd"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></Button>
+
+    <Button
+        android:id="@+id/btnmaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginRight="126dp"
+        android:layout_marginBottom="286dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="serif"
+        android:text="@string/locatii_service"
+        android:textColor="@color/lavenderblue"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtviewMoreInfod" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "24724534590",
+    "firebase_url": "https://carbuddy-3212c.firebaseio.com",
+    "project_id": "carbuddy-3212c",
+    "storage_bucket": "carbuddy-3212c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24724534590:android:31c2b77ce6068dafb9286f",
+        "android_client_info": {
+          "package_name": "com.example.licenta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24724534590-ig4j0fga2ojqvjs5oaorng1f7hrlr1b2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.licenta",
+            "certificate_hash": "aef1b3c3d759b06bb651237cb8812d16f053bcd0"
+          }
+        },
+        {
+          "client_id": "24724534590-d967dln3t8r1fj63ib4qtrb74oicm95p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA-BDbz7i0JbPcSAWTUgy6PP_5vLrAqNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24724534590-d967dln3t8r1fj63ib4qtrb74oicm95p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

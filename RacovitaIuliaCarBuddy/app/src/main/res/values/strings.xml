@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">CarBuddy</string>
+    <string name="carpal">CarPal</string>
+    <string name="prietenul_masinii_tale">Prietenul Mașinii Tale</string>
+    <string name="inregistreaza_te">Înregistrează-te</string>
+    <string name="logInUtilizator">Utilizator</string>
+    <string name="logInParola">Parola</string>
+    <string name="usernamehint">Nume Utilizator</string>
+    <string name="textViewAutentificare">Autentificare</string>
+    <string name="nume_utilizator">Nume utilizator</string>
+    <string name="conecteaza_te">Conectează-te</string>
+    <string name="cont_nou">Cont nou</string>
+    <string name="prenume">Prenume</string>
+    <string name="register_nume">Nume</string>
+    <string name="register_confirmpassword">Confirmă Parola</string>
+    <string name="radioGroupGender">Sex:</string>
+    <string name="radioButtonWoman">Femeie</string>
+    <string name="radioButtonMan">Bărbat</string>
+    <string name="ButtonRegister">ÎNREGISTREAZĂ-TE</string>
+    <string name="buttonRedirectLogIn">Ai un cont? Autentifică-te</string>
+    <string name="toast_succesfullyAccount">Contul a fost creat cu succes!</string>
+    <string name="toast_firstNameNotCompleted">Completați câmpul Prenume !</string>
+    <string name="toast_NameNotCompleted">Completați câmpul Nume!</string>
+    <string name="toast_emailNotCompleted">Câmpul Email trebuie completat!</string>
+    <string name="toast_incorrectPassword">Parolă incorectă!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="label_homeActivity">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtviewCarModel">Model Mașină</string>
+    <string name="toast_ErrCarmodel">Adaugați mașina!</string>
+    <string name="numar_inmatriculare">Număr Înmatriculare</string>
+    <string name="marca_si_model">Marcă și model</string>
+    <string name="alege_data">Alege Data</string>
+    <string name="data_expirare_rca">Data expirare RCA</string>
+    <string name="kilometraj">Kilometraj:</string>
+    <string name="costtotal">CostTotal</string>
+    <string name="litri">Litri</string>
+    <string name="rezervor_plin">Rezervor plin?</string>
+    <string name="ToastErrNoDateChecked">Alege o dată!</string>
+    <string name="ToastErrAddKm">Adaugați KM!</string>
+    <string name="ToastErrAddKmm">Adaugați cantitatea de combustibil!</string>
+    <string name="ToastErrAddCost">Adaugați prețul combustibilului!</string>
+    <string name="ToastErrFuelTank">Ați umplut rezervorul ?</string>
+    <string name="ToastRefuelSuccessfullyAdded">Alimentarea dumneavoastră a fost adaugată!</string>
+    <string name="string_textViewIstoricAlimentari">Istoric Alimentări</string>
+    <string name="istoric_service">Istoric Service</string>
+    <string name="aboutapp">Despre aplicația noastră</string>
+    <string name="about">Despre aplicația noastră</string>
+    <string name="trimite_feedback">Trimite Feedback</string>
+    <string name="txtViewFeedBackTitleFragment">Feedback</string>
+    <string name="txtViewAboutTitleFragment">About</string>
+    <string-array name="spinnerfuel">
+        <item>Benzină</item>
+        <item>Benzină si GPL</item>
+        <item>GPL</item>
+        <item>Motorină</item>
+        <item>Hybrid</item>
+        <item>Plug-in hybrid</item>
+
+    </string-array>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_investment">InvestmentActivity</string>
+    <string name="arat_cheltuieli">Arată cheltuieli</string>
+    <string name="istoric_cheltuieli">Istoric Cheltuieli:</string>
+    <string name="alegeti_data">Alegeți Data:</string>
+    <string name="data_aleasa">Data aleasă</string>
+    <string name="adauga_alimentare">Adaugă alimentare</string>
+    <string name="introduceti_parola">introduceți parola</string>
+    <string name="conectare">Conectare</string>
+    <string name="inregistrare">Înregistrare</string>
+    <string name="alimentari">Alimentări</string>
+    <string name="email">Email</string>
+    <string name="parola">Parola</string>
+    <string name="cheltuieli">Cheltuieli</string>
+    <string name="mai_multe_informa_ii">Mai multe informații</string>
+    <string name="aliment_ri">Alimentări</string>
+    <string name="echipa_noastr_i_propune_s_ofere_utilizatorilor_o_aplica_ie_prin_intermediul_c_reia_s_i_poat_gestiona_cu_u_urin_cheltuielile_investi_iile_legate_de_autoturismul_personal_dar_i_s_re_in_orice_deadline_legat_de_acesta_dac_v_place_carbuddy_prietenul_ma_inii_tale_ne_pute_i_l_sa_un_feedback_n_sec_iunea_dedicat_v_mul_umim">Echipa noastră își propune să ofere utilizatorilor o aplicație prin intermediul căreia să își poată gestiona cu ușurință cheltuielile/ investițiile legate de autoturismul personal, dar și să rețină orice deadline legat de acesta. Dacă vă place CarBuddy - Prietenul mașinii tale ne puteți lăsa un feedback în secțiunea dedicată. Vă mulțumim!</string>
+    <string name="feedback">Feedback</string>
+    <string name="introduce_i_parola">Introduceți parola</string>
+    <string name="data_aleas">Data aleasă</string>
+    <string name="adaug_alimentare">Adaugă Alimentare</string>
+    <string name="toastMessageRefuelReceived">Alimentare primită</string>
+    <string name="ToastErrDifferentPAsswords">Parolele nu corespund!</string>
+    <string name="sign_up_failed">Sign up failed</string>
+    <string name="string_fillFields">Completati Campurile!</string>
+    <string name="string_chechemailpass">Verificati din nou mail-ul si parola!!</string>
+    <string name="err_toast_fueladding">Adaugare alimentare esuata</string>
+    <string name="email1">Email</string>
+    <string name="btn_clearmessage">Curata istoricul</string>
+    <string name="info_service">Info Service</string>
+    <string name="delete_my_account">Delete my Account</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="raport_cost">Raport Cost</string>
+    <string name="save_report_by_cost">SAve Report BY COST</string>
+    <string name="save_report_by_liters">Save Report BY LITERS</string>
+    <string name="removefirebasemsgpart1">Coach with id</string>
+    <string name="adauga_cheltuieli">Adauga Cheltuieli</string>
+    <string name="title_activity_add_expenses">AddExpenses</string>
+    <string name="adauga_cheltuiala">Adauga Cheltuiala</string>
+    <string name="adauga_cost">Adauga Cost</string>
+    <string name="adauga_locatie">Adauga Locatie</string>
+    <string name="noCostErrExpense">Nu uita sa adaugi costul!</string>
+    <string name="toastErrLocation">Nu uita sa adaugi o locatie!</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="locatii_service">Locatii Service!</string>
+
+
+
+</resources>

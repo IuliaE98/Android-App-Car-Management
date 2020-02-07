@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/carwallpaper1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.carbuddy.ReportActivity"
+    tools:showIn="@layout/activity_report">
+
+        <Button
+            android:id="@+id/Report1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="233dp"
+            android:layout_marginRight="233dp"
+            android:padding="10dp"
+            android:layout_marginBottom="579dp"
+            android:background="@drawable/login_rounded"
+            android:text="Raport Litri"
+            android:textColor="@color/darkBluuu"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></Button>
+
+        <Button
+            android:id="@+id/Report2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="59dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginRight="78dp"
+            android:padding="10dp"
+            android:layout_marginBottom="579dp"
+            android:background="@drawable/login_rounded"
+            android:text="@string/raport_cost"
+            android:textColor="@color/darkBluuu"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Report1"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ListView
+            android:id="@+id/recicleViewLiters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="69dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="316dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Report1"
+
+            ></ListView>
+
+        <ListView
+            android:id="@+id/recicleViewCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="80dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recicleViewLiters"></ListView>
+
+    <Button
+        android:id="@+id/btndwnlodlit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginRight="241dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/login_rounded"
+        android:padding="5dp"
+        android:text="@string/save_report_by_liters"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recicleViewCost"></Button>
+
+    <Button
+        android:id="@+id/btndwnlodCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/login_rounded"
+        android:text="@string/save_report_by_cost"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btndwnlodlit"
+        app:layout_constraintTop_toBottomOf="@+id/recicleViewCost" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+

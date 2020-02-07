@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FuelActivity"
+    android:background="@drawable/carwallpaper1">
+
+    <Button
+        android:id="@+id/btnData"
+        android:layout_width="96dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="179dp"
+        android:fontFamily="serif"
+        android:text="@string/alegeti_data"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/darkBluuu"
+        android:background="@drawable/login_rounded"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></Button>
+
+
+    <ImageView
+        android:id="@+id/imageViewgasStation"
+        android:layout_width="120dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="125dp"
+        android:src="@drawable/gasstation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textviewKilometraj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="@string/kilometraj"
+        android:textColor="@color/darkBluuu"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnData" />
+
+    <TextView
+        android:id="@+id/CostTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="serif"
+        android:textColor="@color/darkBluuu"
+        android:text="@string/costtotal"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewKilometraj" />
+
+    <TextView
+        android:id="@+id/textViewlitri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="serif"
+        android:textColor="@color/darkBluuu"
+        android:text="@string/litri"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CostTotal" />
+
+    <TextView
+        android:id="@+id/editTextDataFuel"
+        android:layout_width="118dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="serif"
+        android:text="@string/data_aleas"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/btnData"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewgasStation" />
+
+    <EditText
+        android:id="@+id/ediTextKM"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:inputType="number"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toEndOf="@+id/textviewKilometraj"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDataFuel"></EditText>
+
+    <EditText
+        android:id="@+id/totalCost"
+        android:layout_width="82dp"
+        android:inputType="numberDecimal"
+        android:layout_height="46dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/CostTotal"
+        app:layout_constraintTop_toBottomOf="@+id/ediTextKM"></EditText>
+
+    <EditText
+        android:id="@+id/editTextL"
+        android:layout_width="51dp"
+        android:layout_height="37dp"
+        android:inputType="numberDecimal"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textViewlitri"
+        app:layout_constraintTop_toBottomOf="@+id/totalCost"></EditText>
+
+    <Button
+        android:id="@+id/btnaddFuel"
+        android:layout_width="106dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginRight="237dp"
+        android:background="@drawable/login_rounded"
+        android:fontFamily="serif"
+        android:text="@string/adaug_alimentare"
+        android:textColor="@color/darkBluuu"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlitri" />
+</androidx.constraintlayout.widget.ConstraintLayout>

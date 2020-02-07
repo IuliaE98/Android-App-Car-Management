@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/carwallpaper1"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context=".ExpenseActivity"
+tools:showIn="@layout/activity_expense">
+
+
+    <ListView
+        android:id="@+id/expenseHistory"
+        android:layout_width="418dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtViewhistoryexpense"></ListView>
+
+    <ListView
+        android:id="@+id/expensehistoryfirebase"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="401dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expenseHistory"
+        app:layout_constraintVertical_bias="0.25"></ListView>
+
+    <TextView
+    android:id="@+id/txtViewhistoryexpense"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="160dp"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="133dp"
+    android:layout_marginRight="133dp"
+    android:fontFamily="serif"
+    android:text="@string/istoric_cheltuieli"
+    android:textColor="@android:color/white"
+    android:textStyle="bold|italic"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/buttonShowExpenses"></TextView>
+
+    <Button
+        android:id="@+id/buttonShowExpenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login_rounded"
+        android:fontFamily="serif"
+        android:text="@string/arat_cheltuieli"
+        android:textColor="@color/darkBluuu"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login_rounded"
+        android:fontFamily="serif"
+        android:text="@string/adauga_cheltuieli"
+        android:textColor="@color/darkBluuu"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/buttonShowExpenses"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnExpenseFirebase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/login_rounded"
+        android:fontFamily="serif"
+        android:text="Exporta Cheltuieli BD"
+        android:textColor="@color/darkBluuu"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnAddExpense"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
